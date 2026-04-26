@@ -18,8 +18,22 @@ class Settings(BaseSettings):
     openai_model_heavy: str = "gpt-4o"
 
     duckdb_path: Path = _BACKEND_DIR / "data" / "unmapped.duckdb"
+    # Override-able via PACKS_DIR env var. Default falls back to whichever of
+    # these exists first: backend/packs/ (Docker), repo-root/packs/ (dev).
     packs_dir: Path = _REPO_ROOT / "packs"
     default_country_pack: str = "PK"
 
 
-settings = Settings()
+def _resolve_packs_dir(s: Settings) -> Settings:
+    """Pick whichever packs_dir actually exists on disk so dev + Docker both work."""
+    if s.packs_dir.exists():
+        return s
+    candidates = [_BACKEND_DIR / "packs", _REPO_ROOT / "packs"]
+    for c in candidates:
+        if c.exists():
+            s.packs_dir = c
+            break
+    return s
+
+
+settings = _resolve_packs_dir(Settings())

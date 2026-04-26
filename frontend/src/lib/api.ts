@@ -1,4 +1,8 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE || "http://127.0.0.1:8000";
+// Accept either name — different deploy environments use slightly different conventions.
+const API_BASE =
+  process.env.NEXT_PUBLIC_API_BASE ||
+  process.env.NEXT_PUBLIC_API_URL ||
+  "http://127.0.0.1:8000";
 
 async function post<T>(path: string, body: unknown): Promise<T> {
   const r = await fetch(`${API_BASE}${path}`, {

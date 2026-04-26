@@ -486,8 +486,11 @@ function CvUpload({
       setState("success");
     } catch (e) {
       setState("error");
-      setErrorMsg(t(lang, "youth.cv.error"));
-      console.error(e);
+      // Surface the actual error so the user (and we) can debug.
+      const msg = e instanceof Error ? e.message : String(e);
+      const friendly = t(lang, "youth.cv.error");
+      setErrorMsg(`${friendly} (${msg.slice(0, 200)})`);
+      console.error("CV parse failed:", e);
     }
   }
 
