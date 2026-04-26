@@ -1,0 +1,21 @@
+dataset: World Bank — World Development Indicators (WDI)
+url: https://databank.worldbank.org/source/world-development-indicators
+license: Open Data — CC BY 4.0
+countries: [PAK, GHA]
+indicators:
+  NV.AGR.EMPL.ZS: Employment in agriculture (% of total employment), modeled ILO
+  NV.IND.EMPL.ZS: Employment in industry (% of total employment), modeled ILO
+  NV.SRV.EMPL.ZS: Employment in services (% of total employment), modeled ILO
+  SL.UEM.NEET.ZS: Share of youth not in education, employment or training (%)
+  IT.NET.BBND.P2: Fixed broadband subscriptions (per 100 people)
+  SL.ISV.IFRM.ZS: Informal employment (% of total non-agricultural employment)
+  NY.GDP.PCAP.KD.ZG: GDP per capita growth (annual %)
+retrieval_method: >
+  Snapshot bundled into repo because the live World Bank WDI API returned
+  502 Bad Gateway during the build window. The ingest_wdi.py script is
+  implemented for live retrieval and can be re-run when the API recovers
+  (it OVERWRITES the seed values with live ones).
+notes: >
+  Most recent observation per country/indicator. ILO-modeled employment
+  shares are stable estimates and rarely revised. Informal-employment share
+  is irregularly published.

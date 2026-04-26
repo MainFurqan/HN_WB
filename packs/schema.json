@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UNMAPPED Country Pack",
+  "type": "object",
+  "required": ["country_code", "country_name", "region", "labor_market", "education", "automation", "opportunity_types", "ui"],
+  "properties": {
+    "country_code": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "country_name": { "type": "string" },
+    "region": { "type": "string" },
+    "labor_market": {
+      "type": "object",
+      "required": ["wage_source", "wage_table", "sector_classification"],
+      "properties": {
+        "wage_source": { "type": "string", "enum": ["ilostat", "wdi", "custom"] },
+        "wage_table": { "type": "string", "description": "DuckDB table name with country-filtered wage rows" },
+        "sector_classification": { "type": "string", "enum": ["ISIC4", "NACE2", "custom"] },
+        "informal_share_indicator": { "type": ["string", "null"] }
+      }
+    },
+    "education": {
+      "type": "object",
+      "required": ["taxonomy"],
+      "properties": {
+        "taxonomy": { "type": "string", "enum": ["ISCED-2011", "custom"] },
+        "credential_map_csv": { "type": ["string", "null"] }
+      }
+    },
+    "automation": {
+      "type": "object",
+      "required": ["base_model"],
+      "properties": {
+        "base_model": { "type": "string", "enum": ["frey_osborne", "ilo_task_index"] },
+        "routine_task_indicator": { "type": ["string", "null"] },
+        "digital_infra_indicator": { "type": ["string", "null"] },
+        "discount_weight": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "opportunity_types": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["formal_wage", "self_employment", "gig", "apprenticeship", "training"] }
+    },
+    "ui": {
+      "type": "object",
+      "required": ["languages", "default_language"],
+      "properties": {
+        "languages": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "default_language": { "type": "string" },
+        "low_bandwidth_mode": { "type": "boolean" }
+      }
+    }
+  }
+}

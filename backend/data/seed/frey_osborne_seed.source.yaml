@@ -1,0 +1,18 @@
+dataset: Frey-Osborne 2013 Automation Probabilities
+source: >
+  Frey, C. B., & Osborne, M. A. (2013). The Future of Employment:
+  How Susceptible Are Jobs to Computerisation?
+  Oxford Martin School / University of Oxford.
+  https://www.oxfordmartin.ox.ac.uk/downloads/academic/The_Future_of_Employment.pdf
+license: Academic / publicly published table (Appendix B)
+retrieval_method: Hand-curated extract from the published Appendix B table.
+extracted_rows: 60
+total_rows_in_paper: 702
+selection_criteria: >
+  Occupations representative of the spread (low/mid/high probability) and
+  relevant to LMIC informal economy, youth labour markets, and the
+  Pakistan / Ghana sector mix used in our country packs.
+notes: >
+  Probabilities are real values from the paper. The full 702-row table is
+  available from the Oxford Martin School. Our seed is a curated subset
+  appropriate for the hackathon prototype scope.

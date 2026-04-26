@@ -1,0 +1,19 @@
+dataset: Wittgenstein Centre Human Capital Data Explorer (WCDE-V3)
+indicator: Educational attainment distribution, ages 15-29, both sexes
+scenario: SSP2 (Shared Socioeconomic Pathway 2 — middle-of-the-road)
+years: [2020, 2025, 2030, 2035]
+countries: [PAK, GHA]
+url: http://dataexplorer.wittgensteincentre.org/wcde-v3/
+citation: >
+  KC, Samir, and Wolfgang Lutz. 2017. The human core of the shared
+  socioeconomic pathways: Population scenarios by age, sex and level of
+  education for all countries to 2100. Global Environmental Change 42: 181-192.
+license: Open Data
+retrieval_method: >
+  Snapshot of the SSP2 attainment distribution bundled into repo. The
+  Wittgenstein dashboard exports CSVs interactively; programmatic bulk
+  endpoints are not publicly documented.
+notes: >
+  Shares for the five ISCED-collapsed levels (None / Primary / Lower
+  Secondary / Upper Secondary / Post Secondary) sum to 100 within each
+  (country, year) cell.

@@ -1,0 +1,19 @@
+dataset: ILOSTAT — Mean nominal monthly earnings of employees by economic activity (ISIC4)
+indicator_id: EAR_4MTH_SEX_ECO_CUR_NB_A
+source: ILOSTAT, International Labour Organization
+url: https://ilostat.ilo.org/data/
+license: Open Data — ILOSTAT terms of use
+countries: [PAK, GHA]
+years:
+  PAK: 2021 (latest available with ISIC4 disaggregation in our snapshot)
+  GHA: 2017 (Ghana Living Standards Survey 7, harmonized into ILOSTAT)
+sex: SEX_T (both sexes total)
+retrieval_method: >
+  Snapshot bundled into repo. Live ILOSTAT bulk-download URLs were unstable
+  at submission time; values reflect the most recent published ILOSTAT data
+  for each country at the indicator level.
+notes: >
+  Earnings are gross monthly nominal in local currency. For cross-country
+  comparison the dashboard converts via mid-year USD exchange rate from WDI.
+  PKR values vary by survey methodology (PSLM vs Labour Force Survey) — see
+  ILOSTAT methodology notes.

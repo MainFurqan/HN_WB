@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.local
+
+# Node
+node_modules/
+.next/
+out/
+.turbo/
+
+# Data — raw downloads are big and reproducible from scripts
+backend/data/raw/*
+!backend/data/raw/.gitkeep
+backend/data/*.duckdb
+backend/data/*.duckdb.wal
+backend/data/llm_cache/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Hackathon artifacts (extraction scratch)
+_unpacked/
+_extracted.txt
+
+# Build
+dist/
+build/

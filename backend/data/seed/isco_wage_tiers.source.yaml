@@ -1,0 +1,26 @@
+dataset: ISCO-major-group monthly earnings tiers, PKR + GHS
+purpose: >
+  Wage anchors per ISCO-08 1-digit major group. Used to surface a
+  realistic wage range for each occupation in the Opportunity Match,
+  rather than the flat ILOSTAT TOTAL-sector mean which heavily
+  understates wages for high-skill occupations (a common failure mode
+  in dev-economy labour-data systems).
+methodology: >
+  Indicative tiers derived from country labour-force surveys, ILOSTAT
+  ISCO-disaggregated earnings where available, and published wage
+  studies. Values are presented as p25 / p50 (median) / p75 monthly
+  gross earnings in local currency. They are anchors, not point
+  estimates — the UI shows ranges, not single numbers.
+sources:
+  PAK:
+    - ILOSTAT EAR_3MTH_SEX_OCU_NB_A (where available by ISCO)
+    - Pakistan Labour Force Survey (PBS) wage modules
+    - SHRM Pakistan salary surveys for ICT occupations
+  GHA:
+    - Ghana Statistical Service Labour Force Survey
+    - ILOSTAT GHA earnings tables
+    - GIPC sector salary benchmarks
+limits:
+  - Tiers are anchors, not population estimates.
+  - Within-major-group dispersion is large; UI surfaces p25-p75 band.
+  - Informal-economy earnings are systematically understated in surveys.

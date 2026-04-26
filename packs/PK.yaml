@@ -1,0 +1,31 @@
+country_code: PK
+country_name: Pakistan
+region: South Asia
+
+labor_market:
+  wage_source: ilostat
+  wage_table: ilostat_wages_pk
+  sector_classification: ISIC4
+  informal_share_indicator: SL.ISV.IFRM.ZS
+
+education:
+  taxonomy: ISCED-2011
+  credential_map_csv: packs/PK.credentials.csv
+
+automation:
+  base_model: frey_osborne
+  routine_task_indicator: ilo_routine_task_share_pk
+  digital_infra_indicator: itu_broadband_pct_pk
+  discount_weight: 0.6
+
+opportunity_types:
+  - formal_wage
+  - self_employment
+  - gig
+  - apprenticeship
+  - training
+
+ui:
+  languages: [en, ur]
+  default_language: ur
+  low_bandwidth_mode: true

@@ -1,0 +1,65 @@
+country,indicator,indicator_label,year,value
+PAK,NV.AGR.EMPL.ZS,"Employment in agriculture (%)",2019,37.4
+PAK,NV.AGR.EMPL.ZS,"Employment in agriculture (%)",2020,36.9
+PAK,NV.AGR.EMPL.ZS,"Employment in agriculture (%)",2021,37.4
+PAK,NV.AGR.EMPL.ZS,"Employment in agriculture (%)",2022,37.0
+PAK,NV.AGR.EMPL.ZS,"Employment in agriculture (%)",2023,36.8
+PAK,NV.IND.EMPL.ZS,"Employment in industry (%)",2019,24.3
+PAK,NV.IND.EMPL.ZS,"Employment in industry (%)",2020,25.0
+PAK,NV.IND.EMPL.ZS,"Employment in industry (%)",2021,24.5
+PAK,NV.IND.EMPL.ZS,"Employment in industry (%)",2022,24.7
+PAK,NV.IND.EMPL.ZS,"Employment in industry (%)",2023,24.8
+PAK,NV.SRV.EMPL.ZS,"Employment in services (%)",2019,38.3
+PAK,NV.SRV.EMPL.ZS,"Employment in services (%)",2020,38.1
+PAK,NV.SRV.EMPL.ZS,"Employment in services (%)",2021,38.1
+PAK,NV.SRV.EMPL.ZS,"Employment in services (%)",2022,38.3
+PAK,NV.SRV.EMPL.ZS,"Employment in services (%)",2023,38.4
+PAK,SL.UEM.NEET.ZS,"Youth NEET (% of youth)",2019,32.2
+PAK,SL.UEM.NEET.ZS,"Youth NEET (% of youth)",2020,33.1
+PAK,SL.UEM.NEET.ZS,"Youth NEET (% of youth)",2021,32.0
+PAK,SL.UEM.NEET.ZS,"Youth NEET (% of youth)",2022,31.7
+PAK,IT.NET.BBND.P2,"Fixed broadband subs per 100",2019,1.0
+PAK,IT.NET.BBND.P2,"Fixed broadband subs per 100",2020,1.1
+PAK,IT.NET.BBND.P2,"Fixed broadband subs per 100",2021,1.2
+PAK,IT.NET.BBND.P2,"Fixed broadband subs per 100",2022,1.3
+PAK,IT.NET.BBND.P2,"Fixed broadband subs per 100",2023,1.4
+PAK,SL.ISV.IFRM.ZS,"Informal employment (%, non-agri)",2018,71.7
+PAK,SL.ISV.IFRM.ZS,"Informal employment (%, non-agri)",2019,71.8
+PAK,SL.ISV.IFRM.ZS,"Informal employment (%, non-agri)",2020,71.5
+PAK,NY.GDP.PCAP.KD.ZG,"GDP per capita growth (%)",2019,-1.2
+PAK,NY.GDP.PCAP.KD.ZG,"GDP per capita growth (%)",2020,-2.7
+PAK,NY.GDP.PCAP.KD.ZG,"GDP per capita growth (%)",2021,3.7
+PAK,NY.GDP.PCAP.KD.ZG,"GDP per capita growth (%)",2022,4.5
+PAK,NY.GDP.PCAP.KD.ZG,"GDP per capita growth (%)",2023,-1.8
+GHA,NV.AGR.EMPL.ZS,"Employment in agriculture (%)",2019,29.7
+GHA,NV.AGR.EMPL.ZS,"Employment in agriculture (%)",2020,29.4
+GHA,NV.AGR.EMPL.ZS,"Employment in agriculture (%)",2021,28.9
+GHA,NV.AGR.EMPL.ZS,"Employment in agriculture (%)",2022,28.4
+GHA,NV.AGR.EMPL.ZS,"Employment in agriculture (%)",2023,28.1
+GHA,NV.IND.EMPL.ZS,"Employment in industry (%)",2019,21.4
+GHA,NV.IND.EMPL.ZS,"Employment in industry (%)",2020,21.6
+GHA,NV.IND.EMPL.ZS,"Employment in industry (%)",2021,21.8
+GHA,NV.IND.EMPL.ZS,"Employment in industry (%)",2022,21.9
+GHA,NV.IND.EMPL.ZS,"Employment in industry (%)",2023,22.0
+GHA,NV.SRV.EMPL.ZS,"Employment in services (%)",2019,48.9
+GHA,NV.SRV.EMPL.ZS,"Employment in services (%)",2020,49.0
+GHA,NV.SRV.EMPL.ZS,"Employment in services (%)",2021,49.3
+GHA,NV.SRV.EMPL.ZS,"Employment in services (%)",2022,49.7
+GHA,NV.SRV.EMPL.ZS,"Employment in services (%)",2023,49.9
+GHA,SL.UEM.NEET.ZS,"Youth NEET (% of youth)",2019,24.4
+GHA,SL.UEM.NEET.ZS,"Youth NEET (% of youth)",2020,25.1
+GHA,SL.UEM.NEET.ZS,"Youth NEET (% of youth)",2021,24.7
+GHA,SL.UEM.NEET.ZS,"Youth NEET (% of youth)",2022,24.2
+GHA,IT.NET.BBND.P2,"Fixed broadband subs per 100",2019,0.3
+GHA,IT.NET.BBND.P2,"Fixed broadband subs per 100",2020,0.3
+GHA,IT.NET.BBND.P2,"Fixed broadband subs per 100",2021,0.4
+GHA,IT.NET.BBND.P2,"Fixed broadband subs per 100",2022,0.4
+GHA,IT.NET.BBND.P2,"Fixed broadband subs per 100",2023,0.4
+GHA,SL.ISV.IFRM.ZS,"Informal employment (%, non-agri)",2017,77.5
+GHA,SL.ISV.IFRM.ZS,"Informal employment (%, non-agri)",2018,77.2
+GHA,SL.ISV.IFRM.ZS,"Informal employment (%, non-agri)",2019,77.0
+GHA,NY.GDP.PCAP.KD.ZG,"GDP per capita growth (%)",2019,4.5
+GHA,NY.GDP.PCAP.KD.ZG,"GDP per capita growth (%)",2020,-1.4
+GHA,NY.GDP.PCAP.KD.ZG,"GDP per capita growth (%)",2021,2.6
+GHA,NY.GDP.PCAP.KD.ZG,"GDP per capita growth (%)",2022,1.0
+GHA,NY.GDP.PCAP.KD.ZG,"GDP per capita growth (%)",2023,0.0

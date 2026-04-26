@@ -1,0 +1,61 @@
+soc_code,occupation,probability
+41-9041,Telemarketers,0.99
+41-2011,Cashiers,0.97
+43-3031,Bookkeeping Accounting and Auditing Clerks,0.98
+13-2072,Loan Officers,0.98
+49-2092,Electric Motor Power Tool and Related Repairers,0.93
+51-6031,Sewing Machine Operators,0.89
+51-3011,Bakers,0.89
+49-2022,Telecommunications Equipment Installers and Repairers Except Line Installers,0.50
+49-2098,Security and Fire Alarm Systems Installers,0.83
+49-2011,Computer Automated Teller and Office Machine Repairers,0.92
+47-2031,Carpenters,0.72
+47-2061,Construction Laborers,0.88
+47-2111,Electricians,0.15
+47-2152,Plumbers Pipefitters and Steamfitters,0.35
+49-3023,Automotive Service Technicians and Mechanics,0.59
+49-3052,Motorcycle Mechanics,0.59
+51-6052,Tailors Dressmakers and Custom Sewers,0.84
+51-6051,Sewers Hand,0.99
+35-2014,Cooks Restaurant,0.39
+35-1011,Chefs and Head Cooks,0.10
+39-5012,Hairdressers Hairstylists and Cosmetologists,0.11
+27-1024,Graphic Designers,0.08
+27-3043,Writers and Authors,0.04
+27-3091,Interpreters and Translators,0.38
+27-4021,Photographers,0.50
+15-1131,Computer Programmers,0.48
+15-1132,Software Developers Applications,0.04
+15-1133,Software Developers Systems Software,0.13
+15-1134,Web Developers,0.21
+25-2021,Elementary School Teachers,0.004
+25-2031,Secondary School Teachers,0.17
+29-1141,Registered Nurses,0.009
+31-1014,Nursing Assistants,0.36
+39-9011,Childcare Workers,0.08
+53-3032,Heavy and Tractor-Trailer Truck Drivers,0.79
+53-3033,Light Truck or Delivery Services Drivers,0.69
+53-3041,Taxi Drivers and Chauffeurs,0.89
+53-7062,Laborers and Freight Stock and Material Movers Hand,0.85
+37-2011,Janitors and Cleaners Except Maids and Housekeeping Cleaners,0.66
+37-2012,Maids and Housekeeping Cleaners,0.69
+33-9032,Security Guards,0.84
+41-2031,Retail Salespersons,0.92
+41-1011,First-Line Supervisors of Retail Sales Workers,0.28
+13-1161,Market Research Analysts and Marketing Specialists,0.61
+11-2021,Marketing Managers,0.014
+45-2092,Farmworkers and Laborers Crop Nursery and Greenhouse,0.87
+45-2093,Farmworkers Farm Ranch and Aquacultural Animals,0.87
+45-2091,Agricultural Equipment Operators,0.97
+51-9111,Packaging and Filling Machine Operators and Tenders,0.98
+51-7011,Cabinetmakers and Bench Carpenters,0.85
+51-9061,Inspectors Testers Sorters Samplers and Weighers,0.98
+43-9061,Office Clerks General,0.96
+43-4051,Customer Service Representatives,0.55
+43-6014,Secretaries and Administrative Assistants,0.96
+13-2011,Accountants and Auditors,0.94
+51-4121,Welders Cutters Solderers and Brazers,0.40
+49-9098,Helpers Installation Maintenance and Repair Workers,0.84
+51-9199,Production Workers All Other,0.51
+35-3031,Waiters and Waitresses,0.94
+33-3051,Police and Sheriffs Patrol Officers,0.10

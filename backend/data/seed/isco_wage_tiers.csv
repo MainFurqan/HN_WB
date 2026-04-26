@@ -1,0 +1,19 @@
+country,isco_major,isco_label,p25,p50,p75,currency
+PAK,1,"Managers",180000,260000,420000,PKR
+PAK,2,"Professionals",95000,160000,260000,PKR
+PAK,3,"Technicians and associate professionals",55000,82000,135000,PKR
+PAK,4,"Clerical support workers",32000,48000,75000,PKR
+PAK,5,"Service and sales workers",22000,32000,50000,PKR
+PAK,6,"Skilled agricultural workers",17000,24000,35000,PKR
+PAK,7,"Craft and related trades workers",26000,38000,58000,PKR
+PAK,8,"Plant and machine operators",28000,40000,62000,PKR
+PAK,9,"Elementary occupations",18000,24000,32000,PKR
+GHA,1,"Managers",6500,11000,18500,GHS
+GHA,2,"Professionals",3200,5800,9500,GHS
+GHA,3,"Technicians and associate professionals",1900,3100,5000,GHS
+GHA,4,"Clerical support workers",1200,1800,2900,GHS
+GHA,5,"Service and sales workers",750,1100,1800,GHS
+GHA,6,"Skilled agricultural workers",520,780,1200,GHS
+GHA,7,"Craft and related trades workers",950,1400,2200,GHS
+GHA,8,"Plant and machine operators",1000,1500,2300,GHS
+GHA,9,"Elementary occupations",550,820,1300,GHS

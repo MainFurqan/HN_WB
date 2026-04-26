@@ -1,0 +1,35 @@
+country,sex,isic4,isic4_label,currency,year,earnings
+PAK,SEX_T,A,"Agriculture forestry and fishing",PKR,2021,15400
+PAK,SEX_T,C,"Manufacturing",PKR,2021,22300
+PAK,SEX_T,F,"Construction",PKR,2021,21800
+PAK,SEX_T,G,"Wholesale and retail trade",PKR,2021,23100
+PAK,SEX_T,H,"Transportation and storage",PKR,2021,28700
+PAK,SEX_T,I,"Accommodation and food service activities",PKR,2021,18200
+PAK,SEX_T,J,"Information and communication",PKR,2021,52400
+PAK,SEX_T,K,"Financial and insurance activities",PKR,2021,58900
+PAK,SEX_T,M,"Professional scientific and technical activities",PKR,2021,42600
+PAK,SEX_T,N,"Administrative and support service activities",PKR,2021,24800
+PAK,SEX_T,O,"Public administration and defence",PKR,2021,38500
+PAK,SEX_T,P,"Education",PKR,2021,32700
+PAK,SEX_T,Q,"Human health and social work activities",PKR,2021,36400
+PAK,SEX_T,R,"Arts entertainment and recreation",PKR,2021,21500
+PAK,SEX_T,S,"Other service activities",PKR,2021,19900
+PAK,SEX_T,T,"Activities of households as employers",PKR,2021,13200
+PAK,SEX_T,TOTAL,"All economic activities",PKR,2021,24300
+GHA,SEX_T,A,"Agriculture forestry and fishing",GHS,2017,486
+GHA,SEX_T,C,"Manufacturing",GHS,2017,712
+GHA,SEX_T,F,"Construction",GHS,2017,851
+GHA,SEX_T,G,"Wholesale and retail trade",GHS,2017,604
+GHA,SEX_T,H,"Transportation and storage",GHS,2017,1192
+GHA,SEX_T,I,"Accommodation and food service activities",GHS,2017,547
+GHA,SEX_T,J,"Information and communication",GHS,2017,1813
+GHA,SEX_T,K,"Financial and insurance activities",GHS,2017,2398
+GHA,SEX_T,M,"Professional scientific and technical activities",GHS,2017,1502
+GHA,SEX_T,N,"Administrative and support service activities",GHS,2017,914
+GHA,SEX_T,O,"Public administration and defence",GHS,2017,1647
+GHA,SEX_T,P,"Education",GHS,2017,1209
+GHA,SEX_T,Q,"Human health and social work activities",GHS,2017,1411
+GHA,SEX_T,R,"Arts entertainment and recreation",GHS,2017,832
+GHA,SEX_T,S,"Other service activities",GHS,2017,628
+GHA,SEX_T,T,"Activities of households as employers",GHS,2017,398
+GHA,SEX_T,TOTAL,"All economic activities",GHS,2017,891

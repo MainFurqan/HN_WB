@@ -1,0 +1,41 @@
+country,scenario,year,age,sex,edu_level,share_pct
+PAK,SSP2,2020,15-29,Both,No Education,24.6
+PAK,SSP2,2020,15-29,Both,Primary,18.9
+PAK,SSP2,2020,15-29,Both,Lower Secondary,25.2
+PAK,SSP2,2020,15-29,Both,Upper Secondary,21.4
+PAK,SSP2,2020,15-29,Both,Post Secondary,9.9
+PAK,SSP2,2025,15-29,Both,No Education,22.1
+PAK,SSP2,2025,15-29,Both,Primary,19.0
+PAK,SSP2,2025,15-29,Both,Lower Secondary,25.7
+PAK,SSP2,2025,15-29,Both,Upper Secondary,21.8
+PAK,SSP2,2025,15-29,Both,Post Secondary,11.4
+PAK,SSP2,2030,15-29,Both,No Education,18.7
+PAK,SSP2,2030,15-29,Both,Primary,18.8
+PAK,SSP2,2030,15-29,Both,Lower Secondary,26.4
+PAK,SSP2,2030,15-29,Both,Upper Secondary,22.5
+PAK,SSP2,2030,15-29,Both,Post Secondary,13.6
+PAK,SSP2,2035,15-29,Both,No Education,15.9
+PAK,SSP2,2035,15-29,Both,Primary,17.6
+PAK,SSP2,2035,15-29,Both,Lower Secondary,27.1
+PAK,SSP2,2035,15-29,Both,Upper Secondary,23.7
+PAK,SSP2,2035,15-29,Both,Post Secondary,15.7
+GHA,SSP2,2020,15-29,Both,No Education,17.8
+GHA,SSP2,2020,15-29,Both,Primary,14.6
+GHA,SSP2,2020,15-29,Both,Lower Secondary,29.4
+GHA,SSP2,2020,15-29,Both,Upper Secondary,26.7
+GHA,SSP2,2020,15-29,Both,Post Secondary,11.5
+GHA,SSP2,2025,15-29,Both,No Education,15.3
+GHA,SSP2,2025,15-29,Both,Primary,13.8
+GHA,SSP2,2025,15-29,Both,Lower Secondary,29.7
+GHA,SSP2,2025,15-29,Both,Upper Secondary,28.4
+GHA,SSP2,2025,15-29,Both,Post Secondary,12.8
+GHA,SSP2,2030,15-29,Both,No Education,12.6
+GHA,SSP2,2030,15-29,Both,Primary,12.4
+GHA,SSP2,2030,15-29,Both,Lower Secondary,29.9
+GHA,SSP2,2030,15-29,Both,Upper Secondary,30.4
+GHA,SSP2,2030,15-29,Both,Post Secondary,14.7
+GHA,SSP2,2035,15-29,Both,No Education,10.4
+GHA,SSP2,2035,15-29,Both,Primary,11.0
+GHA,SSP2,2035,15-29,Both,Lower Secondary,29.6
+GHA,SSP2,2035,15-29,Both,Upper Secondary,32.1
+GHA,SSP2,2035,15-29,Both,Post Secondary,16.9
