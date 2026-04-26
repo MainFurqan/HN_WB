@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import {
   api,
@@ -84,6 +84,26 @@ function nameFromAbout(about: string): string {
 }
 
 export default function YouthPage() {
+  return (
+    <Suspense fallback={<YouthSkeleton />}>
+      <YouthInner />
+    </Suspense>
+  );
+}
+
+function YouthSkeleton() {
+  return (
+    <main className="flex-1 max-w-4xl mx-auto w-full px-4 sm:px-6 py-5 sm:py-8">
+      <div className="skeleton h-8 w-40 rounded mb-8" />
+      <div className="skeleton h-12 w-full rounded mb-3" />
+      <div className="skeleton h-32 w-full rounded mb-3" />
+      <div className="skeleton h-32 w-full rounded mb-3" />
+      <div className="skeleton h-32 w-full rounded" />
+    </main>
+  );
+}
+
+function YouthInner() {
   const params = useSearchParams();
   const router = useRouter();
   const country = (params.get("country") || "PK").toUpperCase();
